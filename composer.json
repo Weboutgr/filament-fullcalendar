@@ -2,11 +2,11 @@
     "name": "weboutgr/filament-fullcalendar",
     "description": "The Most Popular JavaScript Calendar integrated with Filament 💛",
     "keywords": [
-        "saade",
+        "weboutgr",
         "laravel",
         "filament-fullcalendar"
     ],
-    "homepage": "https://github.com/saade/filament-fullcalendar",
+    "homepage": "https://github.com/Weboutgr/filament-fullcalendar",
     "license": "MIT",
     "authors": [
         {
@@ -34,7 +34,7 @@
             "src/helpers.php"
         ],
         "psr-4": {
-            "Saade\\FilamentFullCalendar\\": "src"
+            "Weboutgr\\FilamentFullCalendar\\": "src"
         }
     },
     "scripts": {
@@ -51,7 +51,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Saade\\FilamentFullCalendar\\FilamentFullCalendarServiceProvider"
+                "Weboutgr\\FilamentFullCalendar\\FilamentFullCalendarServiceProvider"
             ]
         }
     },

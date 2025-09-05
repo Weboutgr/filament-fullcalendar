@@ -1,9 +1,9 @@
 <?php
 
-namespace Saade\FilamentFullCalendar\Actions;
+namespace Weboutgr\FilamentFullCalendar\Actions;
 
 use Filament\Actions\ViewAction as BaseViewAction;
-use Saade\FilamentFullCalendar\Widgets\FullCalendarWidget;
+use Weboutgr\FilamentFullCalendar\Widgets\FullCalendarWidget;
 
 class ViewAction extends BaseViewAction
 {

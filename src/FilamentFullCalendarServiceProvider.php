@@ -1,6 +1,6 @@
 <?php
 
-namespace Saade\FilamentFullCalendar;
+namespace Weboutgr\FilamentFullCalendar;
 
 use Filament\Support\Assets\AlpineComponent;
 use Filament\Support\Assets\Css;
@@ -31,7 +31,7 @@ class FilamentFullCalendarServiceProvider extends PackageServiceProvider
 
     protected function getAssetPackageName(): ?string
     {
-        return 'saade/filament-fullcalendar';
+        return 'weboutgr/filament-fullcalendar';
     }
 
     /**

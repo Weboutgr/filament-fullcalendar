@@ -1,6 +1,6 @@
 <?php
 
-namespace Saade\FilamentFullCalendar\Data;
+namespace Weboutgr\FilamentFullCalendar\Data;
 
 use DateTimeInterface;
 use Illuminate\Contracts\Support\Arrayable;

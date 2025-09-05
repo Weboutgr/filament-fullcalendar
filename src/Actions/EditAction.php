@@ -1,9 +1,9 @@
 <?php
 
-namespace Saade\FilamentFullCalendar\Actions;
+namespace Weboutgr\FilamentFullCalendar\Actions;
 
 use Filament\Actions\EditAction as BaseEditAction;
-use Saade\FilamentFullCalendar\Widgets\FullCalendarWidget;
+use Weboutgr\FilamentFullCalendar\Widgets\FullCalendarWidget;
 
 class EditAction extends BaseEditAction
 {
