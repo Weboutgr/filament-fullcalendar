@@ -4,13 +4,11 @@
 
 <x-filament-widgets::widget>
     <x-filament::section>
-        <div class="flex justify-end flex-1 mb-4">
-            <x-filament-actions::actions :actions="$this->getCachedHeaderActions()" class="shrink-0" />
-        </div>
+        <x-filament::actions :actions="$this->getCachedHeaderActions()" alignment="end" class="mb-4" />
 
         <div class="filament-fullcalendar" wire:ignore x-load
             x-load-src="{{ \Filament\Support\Facades\FilamentAsset::getAlpineComponentSrc('filament-fullcalendar-alpine', 'weboutgr/filament-fullcalendar') }}"
-            ax-load-css="{{ \Filament\Support\Facades\FilamentAsset::getStyleHref('filament-fullcalendar-styles', 'weboutgr/filament-fullcalendar') }}"
+            x-load-css="{{ \Filament\Support\Facades\FilamentAsset::getStyleHref('filament-fullcalendar-styles', 'weboutgr/filament-fullcalendar') }}"
             x-ignore x-data="fullcalendar({
                 locale: @js($plugin->getLocale()),
                 plugins: @js($plugin->getPlugins()),
